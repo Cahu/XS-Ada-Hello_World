@@ -1,0 +1,6 @@
+	$ cd MyAdaModule/
+	$ perl Makefile.PL
+	$ make
+
+	$ cd ..
+	$ perl -Mblib="MyAdaModule/" main.pm
